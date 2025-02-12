@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navbar -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center p-5">
+            <h1 class="text-2xl font-bold text-blue-600">BrandName</h1>
+            <nav>
+                <ul class="flex space-x-6 text-gray-700">
+                    <li><a href="#features" class="hover:text-blue-600">Features</a></li>
+                    <li><a href="#testimonials" class="hover:text-blue-600">Testimonials</a></li>
+                    <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-500 to-blue-700 text-white">
+        <div class="container mx-auto flex flex-col md:flex-row items-center py-20 px-5">
+            <div class="md:w-1/2 space-y-6">
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight">Grow Your Business with Us</h1>
+                <p class="text-lg">We provide innovative solutions to help you achieve your goals efficiently and effectively.</p>
+                <a href="#contact" class="px-6 py-3 bg-white text-blue-700 font-semibold rounded-lg shadow hover:bg-gray-100">Get Started</a>
+            </div>
+            <div class="md:w-1/2 mt-10 md:mt-0">
+                <img src="https://via.placeholder.com/600x400" alt="Hero Image" class="rounded-xl shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-10">Our Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-4">Feature 1</h3>
+                    <p class="text-gray-600">Description of feature 1 that provides great benefits to the user.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-4">Feature 2</h3>
+                    <p class="text-gray-600">Description of feature 2 that enhances user experience and efficiency.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-4">Feature 3</h3>
+                    <p class="text-gray-600">Description of feature 3 that makes our product unique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="bg-gray-100 py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-10">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p class="text-gray-600 italic">"This is the best service I have ever used! Highly recommended."</p>
+                    <h4 class="mt-4 font-semibold text-blue-600">- Client Name</h4>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p class="text-gray-600 italic">"Amazing experience. My business has grown significantly."</p>
+                    <h4 class="mt-4 font-semibold text-blue-600">- Client Name</h4>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p class="text-gray-600 italic">"Exceptional service with top-notch support."</p>
+                    <h4 class="mt-4 font-semibold text-blue-600">- Client Name</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="contact" class="bg-blue-600 text-white py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Ready to Elevate Your Business?</h2>
+            <p class="mb-10">Contact us today and see how we can help you achieve success.</p>
+            <a href="mailto:info@brandname.com" class="px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg shadow hover:bg-gray-100">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 BrandName. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
